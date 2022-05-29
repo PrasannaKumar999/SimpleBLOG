@@ -10,7 +10,7 @@ const Home = () => {
         return (
         <a href={item.url}>
             <div className="card">
-              <img src={item.urlToImage} alt="Image not found" />
+              <img src={item.urlToImage} alt="" />
               <p>{item.title}</p>
               <p>{item.description}</p>
               <p>{item.author}{item.publishedAt}</p>
